@@ -1,4 +1,85 @@
+@media only screen and (max-width: 500px) {
+    /*nav section*/
+    .nav{
+        position: absolute;
+        width: 100%;
+    }
+    .nav-link{
+        display: none;
+    }
+    .udemy-icon{
+        position: absolute;
+        left: 30%;
+        bottom: 10px;
+        width: 140px;
+        height: 38px;
+    }
+    .udemy-menue{
+        background-image: url(../img/Menue\ icon.png);
+        width: 6%;
+        height: 75%;
+        background-size: 100% 100%;
+        border: 1px solid white;
+        position: absolute;
+        left: 27px;
+        display: block;
+    }
+    .cart{
+        display: block;
+        width: 25px;
+        height: 17px;
+        position: absolute;
+        left: 84%;
+        bottom: 11px;
+    }
+    .search-input{
+        display: none;
+    }
+    
+    .nav-btn{
+        display: none;
+    }
+    .search-nav-bar-icon {
+        position: absolute;
+        display: block;
+        left: 78%;
+        bottom: 16px;
+        width: 16px;
+        height: 17px;
+    }
+     /* Head- section*/
+     .head-section{
+    
+        width: 100%;
+            
+        height: 500px;
+            
+        margin:
+            
+        auto;
+            
+        background-color: #f2f2f296;
+            
+        display: flex;
+        position: relative;
+        }
+        .head-note{
+            background-color: #ffffff;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 166px;
+            left: 122px;
+        }
+        .alarm{
+            width: 373px;
+            height: 377px;
+            position: fixed;
+            right: 20%;
+        }
+ }
 @media only screen and (max-width: 700px) {
+    /*nav section*/
     .nav{
         position: absolute;
         width: 100%;
@@ -46,47 +127,116 @@
         width: 27px;
         height: 29px;
     }
-}
-
-@media only screen and (max-width: 500px) {
-    /* NAV BAR */
-    .nav{
-        position: absolute;
+     /* Head- section*/
+     .head-section{
+    
         width: 100%;
-    }
-    .nav-link{
+            
+        height: 500px;
+            
+        margin:
+            
+        auto;
+            
+        background-color: #f2f2f296;
+            
+        display: flex;
+        position: relative;
+        }
+        .head-note{
+            background-color: #ffffff;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 166px;
+            left: 122px;
+        }
+        .alarm{
+            width: 373px;
+            height: 377px;
+            position: fixed;
+            right: 20%;
+        }
+}
+@media only screen and (max-width: 1000px) {
+    /*nav section*/
+    .nav-form{
         display: none;
     }
-    .udemy-icon{
-        position: absolute;
-        left: 79%;
-        bottom: 20px;
-        width: 77px;
-        height: 38px;
-    }   
-    .udemy-menue{
-        background-image: url(../img/Menue\ icon.png);
-        width: 8%;
-        height: 50%;
-        background-size: 100% 100%;
-        border: 1px solid white;
-        position: absolute;
-        left: 27px;
-        display: block;
-    }
-    .cart{
-        display: none;
-    }
-    .search-input{
-         display: none;
-    }
+     /* Head- section*/
+     .head-section{
+    
+width: 100%;
+    
+height: 109px;
+    
+margin:
+            
+        auto;
+    
+background-color: transparent;
+    
+display: flex;
+    
+position: relative;
+    
+flex-direction: column;
+    
+justify-content: space-evenly;
+    
+align-items: stretch;
+    
+flex-wrap: nowrap;
+    
+}
+        .head-note{
+            background-color: #ffffff;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 373px;
+            left: 5px;
+        }
+        .alarm{
+            width: 279px;
+            height: 289px;
+            position: fixed;
+            right: 25%;
+            top: 81px;
+        }
+}
+@media only screen and(max-width:1100px){
+    /* Head- section*/
+    .head-section{
+    
+        width: 100%;
+            
+        height: 500px;
+            
+        margin:
+            
+        auto;
+            
+        background-color: #f2f2f296;
+            
+        display: flex;
+        position: relative;
+        }
+        .head-note{
+            background-color: #ffffff;
+            height: 100px;
+            padding: 20px;
+            position: absolute;
+            top: 166px;
+            left: 122px;
+        }
+        .alarm{
+            width: 373px;
+            height: 377px;
+            position: fixed;
+            right: 20%;
+        }
 
-    .nav-btn{
-         display: none;
-    }
-    .search-nav-bar-icon {
-        display: none;
-    }
 }
 @media only screen and (max-width: 1466px) {
     .sign-up-btn{
@@ -98,10 +248,5 @@
     }
     .search-input{
         width: 70%;
-    }
-}
-@media only screen and (max-width: 1000px) {
-    .nav-form{
-        display: none;
     }
 }

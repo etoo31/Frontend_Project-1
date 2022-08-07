@@ -108,4 +108,37 @@ body
     margin: 0px;
     display: none;
 }
-/* Nav-Bar for small devices mobile*/
+/* Head- section*/
+.head-section{
+    
+width: 90%;
+    
+height: 500px;
+    
+margin:
+    
+auto;
+    
+background-color: #f2f2f296;
+    
+display: flex;
+    
+position: relative;
+}
+.head-note{
+    background-color: #ffffff;
+    height: 100px;
+    padding: 20px;
+    position: absolute;
+    top: 166px;
+    left: 122px;
+}
+.alarm{
+    background-size: 100% 100%;
+    background-image: url(../img/alarm.png);
+    width: 373px;
+    height: 377px;
+    position: fixed;
+    right: 14%;
+    bottom: 29%;
+}
