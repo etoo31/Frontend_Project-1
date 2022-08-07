@@ -1,0 +1,36 @@
+@media only screen and (max-width: 500px) {
+    /* NAV BAR */
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.nav-link{
+    display: none;
+}
+.udemy-icon{
+    position: absolute;
+    left: 64%;
+    bottom: 20px;
+}
+.udemy-menue{
+    background-image: url(../img/Menue\ icon.png);
+    width: 8%;
+    height: 50%;
+    background-size: 100% 100%;
+    border: 1px solid white;
+    position: absolute;
+    left: 27px;
+    display: block;
+}
+.cart{
+    display: none;
+}
+.search-input{
+    display: none;
+}
+
+.nav-btn{
+    display: none;
+}
+
+}
