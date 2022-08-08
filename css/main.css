@@ -40,7 +40,7 @@ body
 .cart{
     background-image: url(../img/cart.png);
     background-size: 100% 100%;
-    font-size: 7px;
+    font-size: 5px;
     color: transparent;
     padding: 5px;
     box-shadow: 0px 0px;
@@ -108,37 +108,46 @@ body
     margin: 0px;
     display: none;
 }
+
 /* Head- section*/
 .head-section{
-    
-width: 90%;
-    
-height: 500px;
-    
-margin:
-    
-auto;
-    
-background-color: #f2f2f296;
-    
-display: flex;
-    
-position: relative;
+    width: 90%;
+    height: 500px;
+    margin:auto;
+    background-color: #f2f2f296;
+    display: flex;
+    position: relative;
 }
 .head-note{
     background-color: #ffffff;
-    height: 100px;
+    height: 32%;
+    width: 26%;
     padding: 20px;
     position: absolute;
-    top: 166px;
-    left: 122px;
+    top: 30%;
+    left: 9%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    border: rgba(0, 0, 0, 0.1) solid 1px;
 }
 .alarm{
     background-size: 100% 100%;
     background-image: url(../img/alarm.png);
-    width: 373px;
-    height: 377px;
+    width: 36%;
+    height: 43%;
     position: fixed;
-    right: 14%;
-    bottom: 29%;
+    right: 7%;
+    bottom: 33%;
+}
+/* Courses Section */
+.subject-selection {
+    width: 100%;
+    margin: 0% 5%;
+}
+
+.courses-btns {
+    background-color: transparent;
+    display: flex;
+}
+.course-btn{
+    background-color: transparent;
 }
