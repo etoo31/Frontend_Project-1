@@ -135,6 +135,9 @@
         text-align: center;
         margin: 2%;
     }
+    .explore-btn:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+       }
 }
 /*================================ 1000px ===============================*/
 @media only screen and (max-width: 1000px) {
@@ -294,6 +297,9 @@
         text-align: center;
         margin: 2%;
     }
+    .explore-btn:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+       }
 }
 
 /* =================== 700px ========================================*/
@@ -494,6 +500,9 @@
         text-align: center;
         margin: 2%;
     }
+    .explore-btn:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+       }
 }
 
 /* =================== 600px ========================================*/
@@ -693,6 +702,9 @@
         text-align: center;
         margin: 2%;
     }
+    .explore-btn:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+       }
 }
 
 
@@ -897,6 +909,9 @@
         text-align: center;
         margin: 2%;
     }
+    .explore-btn:hover{
+        background-color: rgba(0, 0, 0, 0.1);
+       }
 }
 
 
@@ -1108,4 +1123,7 @@
             font-size: 72%;
             margin: 2%;
         }
+        .explore-btn:hover{
+            background-color: rgba(0, 0, 0, 0.1);
+           }
  }

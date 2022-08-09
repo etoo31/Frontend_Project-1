@@ -210,6 +210,9 @@ body
     font-size: 17px;
     margin: 1% 0% 1% 1%;
 }
+.explore-btn:hover{
+ background-color: rgba(0, 0, 0, 0.1);
+}
 .course-img {
     width: 100%;
 }
