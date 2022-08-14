@@ -1,0 +1,54 @@
+{
+    "courses": [
+        {
+            "image-src": "./img/python1.png",
+            "alt": "Phyton-image",
+            "title": "Learn Python: The Complete Python Programming Course",
+            "author": "Avinash Jain, The Codex",
+            "rating": "4.4",
+            "offer": "1",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/python2.png",
+            "alt": "Phyton-image",
+            "title": "Learning Python for data analysis and visualization",
+            "author": "Jose Portilla",
+            "rating": "4.4",
+            "offer": "1",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/python3.png",
+            "alt": "Phyton-image",
+            "title": "Python for begginers learn programming form scratch",
+            "author": "Edwin Diza, Coding Faculty Solution",
+            "rating": "4.0",
+            "offer": "1",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/python4.png",
+            "alt": "Phyton-image",
+            "title": "Learn Python: Python for begginers",
+            "author": "Abrar Hussien",
+            "rating": "4.0",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/python5.png",
+            "alt": "Phyton-image",
+            "title": "Python-byond the basics object-oriented programming",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        }
+    ]
+}
