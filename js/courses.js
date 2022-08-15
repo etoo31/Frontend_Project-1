@@ -5,7 +5,7 @@ coursesContainerDiv = document.querySelector(".courses-container");
 
 //featching data
 let fetchCourses = async ()=>{
-    let response = await fetch("http://localhost:3001/courses");
+    let response = await fetch("http://localhost:3000/courses");
     let json = await response.json();
     courseData = await json;
     await courseData.forEach(element =>addCourseElement(element));
@@ -68,7 +68,8 @@ function addCourseElement(element)
     starContainerDiv.appendChild(courseRattingValue);
 
     //create stars icons
-    //getting the rating number and knowing how many full stars are there and if there a half star or not and if there an empty star or not
+    /*getting the rating number and knowing how many full stars are there
+     and if there a half star or not and if there an empty star or not*/
     let numberOfStars = +element['rating'];
     let fullStars = Math.floor(numberOfStars);
     let emptyStars = 5-fullStars;
@@ -102,13 +103,12 @@ function addCourseElement(element)
     for (let i = 0 ; i < emptyStars; i++)
     {
         let starDiv = document.createElement('i')
-        starDiv.classList.add('star');
         starDiv.classList.add('fa-star');
         starDiv.classList.add('fa-regular');
+        starDiv.classList.add('empty-star');
 
         //add star to star container 
         starContainerDiv.appendChild(starDiv);
-
     }
 
 
@@ -121,14 +121,14 @@ function addCourseElement(element)
 
     //create a span for the actual price
     let priceContainer = document.createElement('span')
-    priceContainer.innerText = element['offerPrice'];
+    priceContainer.innerText = 'E£'+element['price'];
 
     //create a span for offer price if there is an offer
     if (element['offer'] =='1')
     {
         let offerPriceContainer = document.createElement('span')
         offerPriceContainer.classList.add('course-price');
-        offerPriceContainer.innerText = element['offerPrice'];
+        offerPriceContainer.innerText = 'E£'+element['offerPrice'];
         priceContainer.classList.add('delete-price');
 
         //add offer Price Container to Price paragraph
@@ -152,3 +152,48 @@ function addCourseElement(element)
     coursesContainerDiv.appendChild(courseDiv);
     
 }
+
+
+//Select search button document
+let searchButton = document.querySelector('.nav-form-button');
+//add an action on click
+searchButton.addEventListener('click' , searchCourse);
+
+function searchCourse()
+{
+    //select search input
+    let searchInput = document.querySelector('#search-input');
+    let input = searchInput.value.toLowerCase();
+    //clear searchInput text
+    searchInput.value = "";
+    //if searchinput is empty do nothing
+    if (input.trim() == '' || courseData == undefined)return;
+    
+    //make an array for the data that will match the input
+    let displayedElement = new Array();
+
+    //go through all courses
+    for (let i = 0 ; i < courseData.length;i++)
+    {
+        if (courseData[i]['title'].toLowerCase().includes(input)) {
+            displayedElement.push(courseData[i]);
+        }
+    }
+    //clear the course Container div
+    coursesContainerDiv.innerText = "";
+
+    if (displayedElement.length == 0)
+    {//if the input dosen't match with any course display all courses
+        courseData.forEach(element =>addCourseElement(element));
+    }
+    else 
+    {//if atleast one course match the input data display it
+        displayedElement.forEach(element =>addCourseElement(element));
+    }
+}
+
+//Prevent the page from reload on submit
+var navForm = document.getElementById("nav-form");
+console.log(navForm);
+function handleForm(event) { event.preventDefault(); } 
+navForm.addEventListener('submit', handleForm);

@@ -39,12 +39,11 @@ body {
   display: none;
 }
 .cart {
-  background-image: url(../img/cart.png);
-  background-size: 100% 100%;
-  font-size: 5px;
-  color: transparent;
-  padding: 5px;
-  box-shadow: 0px 0px;
+  display: block;
+  height: 1%;
+  background-color: transparent;
+  color: black;
+  box-shadow: 0px 0px 0px;
 }
 .search-input {
   width: 500px;
@@ -89,9 +88,12 @@ body {
 .nav-link:hover {
   color: rgba(0, 0, 255, 0.6);
 }
-.cart:hover {
-  color: transparent;
-  font-size: 8px;
+.fa-solid:hover {
+  color: rgba(0, 0, 255, 0.6);
+}
+.fa-cart,
+.fa-solid {
+  background-color: transparent;
 }
 .nav-btns {
   display: flex;
@@ -100,8 +102,8 @@ body {
 }
 .search-nav-bar-icon {
   background-image: url(../img/search-icon.png);
-  height: 20px;
-  width: 20px;
+  height: 0px;
+  width: 0x;
   background-size: 100% 100%;
   color: transparent;
   border: transparent;
@@ -122,18 +124,12 @@ body {
   .search-input {
     width: 70%;
   }
-  .cart {
-    font-size: 4px;
-  }
 }
 /*================================ 1000px ===============================*/
 @media only screen and (max-width: 1000px) {
   /*nav section*/
   .nav-form {
     display: none;
-  }
-  .cart {
-    font-size: 4px;
   }
 }
 
@@ -151,7 +147,7 @@ body {
   .udemy-icon {
     position: absolute;
     left: 44%;
-    bottom: 17px;
+    bottom: 7px;
     width: 103px;
     height: 43px;
   }
@@ -167,11 +163,10 @@ body {
   }
   .cart {
     display: block;
-    width: 27px;
-    height: 22px;
     position: absolute;
-    left: 91%;
-    bottom: 16px;
+    font-size: 126%;
+    left: 94%;
+    bottom: 33px;
   }
   .search-input {
     display: none;
@@ -184,7 +179,7 @@ body {
     position: absolute;
     display: block;
     left: 83%;
-    bottom: 23px;
+    bottom: 14px;
     width: 20px;
     height: 22px;
   }
@@ -203,7 +198,7 @@ body {
   .udemy-icon {
     position: absolute;
     left: 44%;
-    bottom: 17px;
+    bottom: 6px;
     width: 103px;
     height: 43px;
   }
@@ -219,11 +214,9 @@ body {
   }
   .cart {
     display: block;
-    width: 27px;
-    height: 22px;
     position: absolute;
-    left: 91%;
-    bottom: 16px;
+    left: 93%;
+    bottom: 30px;
   }
   .search-input {
     display: none;
@@ -236,7 +229,7 @@ body {
     position: absolute;
     display: block;
     left: 83%;
-    bottom: 23px;
+    bottom: 12px;
     width: 20px;
     height: 22px;
   }
@@ -293,6 +286,9 @@ body {
     bottom: 16px;
     width: 16px;
     height: 17px;
+  }
+  .fa-cart-shopping {
+    display: none;
   }
 }
 

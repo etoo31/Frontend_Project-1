@@ -49,9 +49,9 @@
 .courses-container {
   display: flex;
   width: 100%;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin: 0%;
-  justify-content: center;
+  justify-content: flex-start;
   /* position: absolute; */
 }
 .specfic-subject-courses-paragraph {
@@ -77,7 +77,7 @@
 }
 .one-course {
   margin: 1%;
-  width: 22%;
+  width: 18%;
 }
 .one-course:hover {
   background-color: rgba(0, 0, 0, 0.1);
@@ -107,6 +107,9 @@
   margin: 1%;
   font-weight: 900;
 }
+.empty-star {
+  color: #e59819;
+}
 .course-price {
   font-weight: bold;
   margin: 0% 3% 0% 0%;
@@ -120,6 +123,9 @@
 }
 .price-container {
   margin: 0%;
+}
+.delete-price {
+  text-decoration: line-through;
 }
 .end {
   text-align: center;
@@ -179,7 +185,7 @@
   .courses-container {
     display: flex;
     width: 100%;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     margin: 0%;
     justify-content: center;
   }
