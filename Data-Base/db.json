@@ -49,6 +49,564 @@
             "offer": "0",
             "price": "679.99",
             "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/java1.png",
+            "alt": "java-image",
+            "title": "Learn javaScript: Java script for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/java2.png",
+            "alt": "java-image",
+            "title": "Learn javaScript: Java script for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/java3.png",
+            "alt": "java-image",
+            "title": "Learn javaScript: Java script for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/java4.png",
+            "alt": "java-image",
+            "title": "Learn javaScript: Java script for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/java5.png",
+            "alt": "java-image",
+            "title": "Learn javaScript: Java script for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/java6.png",
+            "alt": "java-image",
+            "title": "Learn javaScript: Java script for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/java7.png",
+            "alt": "java-image",
+            "title": "Learn javaScript: Java script for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/java8.png",
+            "alt": "java-image",
+            "title": "Learn javaScript: Java script for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/java9.png",
+            "alt": "java-image",
+            "title": "Learn javaScript: Java script for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/java10.png",
+            "alt": "java-image",
+            "title": "Learn javaScript: Java script for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/web1.png",
+            "alt": "web-image",
+            "title": "Learn Web development: HTML JavaScript CSS for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/web2.png",
+            "alt": "web-image",
+            "title": "Learn Web development: HTML JavaScript CSS for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/web3.png",
+            "alt": "web-image",
+            "title": "Learn Web development: HTML JavaScript CSS for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/web4.png",
+            "alt": "web-image",
+            "title": "Learn Web development: HTML JavaScript CSS for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/web5.png",
+            "alt": "web-image",
+            "title": "Learn Web development: HTML JavaScript CSS for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/web6.png",
+            "alt": "web-image",
+            "title": "Learn Web development: HTML JavaScript CSS for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/web7.png",
+            "alt": "web-image",
+            "title": "Learn Web development: HTML JavaScript CSS for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/web8.png",
+            "alt": "web-image",
+            "title": "Learn Web development: HTML JavaScript CSS for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/web9.png",
+            "alt": "web-image",
+            "title": "Learn Web development: HTML JavaScript CSS for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/web10.png",
+            "alt": "web-image",
+            "title": "Learn Web development: HTML JavaScript CSS for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/data1.png",
+            "alt": "data-image",
+            "title": "Learn Data analysis: Data analysis for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/data2.png",
+            "alt": "data-image",
+            "title": "Learn Data analysis: Data analysis for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/data3.png",
+            "alt": "data-image",
+            "title": "Learn Data analysis: Data analysis for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/data4.png",
+            "alt": "data-image",
+            "title": "Learn Data analysis: Data analysis for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/data5.png",
+            "alt": "data-image",
+            "title": "Learn Data analysis: Data analysis for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/data6.png",
+            "alt": "data-image",
+            "title": "Learn Data analysis: Data analysis for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/data7.png",
+            "alt": "data-image",
+            "title": "Learn Data analysis: Data analysis for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/data8.png",
+            "alt": "data-image",
+            "title": "Learn Data analysis: Data analysis for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/data9.png",
+            "alt": "data-image",
+            "title": "Learn Data analysis: Data analysis for begginners",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/aws1.png",
+            "alt": "aws-image",
+            "title": "AWS Certified Solutions Architect - Associate 2022",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/aws2.png",
+            "alt": "aws-image",
+            "title": "AWS Certified Solutions Architect - Associate 2022",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/aws3.png",
+            "alt": "aws-image",
+            "title": "AWS Certified Solutions Architect - Associate 2022",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/aws4.png",
+            "alt": "aws-image",
+            "title": "AWS Certified Solutions Architect - Associate 2022",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/aws5.png",
+            "alt": "aws-image",
+            "title": "AWS Certified Solutions Architect - Associate 2022",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/aws6.png",
+            "alt": "aws-image",
+            "title": "AWS Certified Solutions Architect - Associate 2022",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/aws7.png",
+            "alt": "aws-image",
+            "title": "AWS Certified Solutions Architect - Associate 2022",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/drawing1.png",
+            "alt": "drawing-image",
+            "title": "The Complete Beginners Drawing and Shading Course",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/drawing2.png",
+            "alt": "drawing-image",
+            "title": "The Complete Beginners Drawing and Shading Course",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/drawing3.png",
+            "alt": "drawing-image",
+            "title": "The Complete Beginners Drawing and Shading Course",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/drawing4.png",
+            "alt": "drawing-image",
+            "title": "The Complete Beginners Drawing and Shading Course",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/drawing5.png",
+            "alt": "drawing-image",
+            "title": "The Complete Beginners Drawing and Shading Course",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/drawing6.png",
+            "alt": "drawing-image",
+            "title": "The Complete Beginners Drawing and Shading Course",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/drawing7.png",
+            "alt": "drawing-image",
+            "title": "The Complete Beginners Drawing and Shading Course",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/drawing8.png",
+            "alt": "drawing-image",
+            "title": "The Complete Beginners Drawing and Shading Course",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/excel1.png",
+            "alt": "excel-image",
+            "title": "The Complete Beginners Excel Manipulations",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/excel2.png",
+            "alt": "excel-image",
+            "title": "The Complete Beginners Excel Manipulations",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/excel3.png",
+            "alt": "excel-image",
+            "title": "The Complete Beginners Excel Manipulations",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/excel4.png",
+            "alt": "excel-image",
+            "title": "The Complete Beginners Excel Manipulations",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/excel5.png",
+            "alt": "excel-image",
+            "title": "The Complete Beginners Excel Manipulations",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/excel6.png",
+            "alt": "excel-image",
+            "title": "The Complete Beginners Excel Manipulations",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/excel7.png",
+            "alt": "excel-image",
+            "title": "The Complete Beginners Excel Manipulations",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/excel8.png",
+            "alt": "excel-image",
+            "title": "The Complete Beginners Excel Manipulations",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/excel9.png",
+            "alt": "excel-image",
+            "title": "The Complete Beginners Excel Manipulations",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/excel10.png",
+            "alt": "excel-image",
+            "title": "The Complete Beginners Excel Manipulations",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        }
+    ],
+    "headers": [
+        {
+            "pythonHeader": "Expand your career opportunities with Python",
+            "pythonParagraph": "Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to...",
+            "excelHeader": "Analyze and visualize data with Excel",
+            "excelParagraph": "Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to",
+            "webHeader": "Build websites and applications with Web Development",
+            "webParagraph": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
+            "javaHeader": "Grow your software development skills with JavaScript",
+            "javaParagraph": "JavaScript is a text-based computer programming language used to make dynamic web pages. A must-learn for aspiring web developers or programmers, JavaScript can be used for features like image carousels, displaying countdowns and timers, and playing media on a webpage. With JavaScript online classes, you can learn to build interactive web applications, choose the best framework, and work with other programming languages like HTML and CSS...",
+            "dataheader": "Lead data-driven decisions with Data Science",
+            "dataParagraph": "Data science application is an in-demand skill in many industries worldwide — including finance, transportation, education, manufacturing, human resources, and banking. Explore data science courses with Python, statistics, machine learning, and more to grow your knowledge. Get data science training if you’re into research, statistics...",
+            "awsHeader": "Become an expert in cloud computing with AWS Certification",
+            "awsParagraph": "Prep for your AWS certification with an AWS course on Udemy. Learn the fundamentals of AWS such as working with a serverless platform, the various frameworks, security and more. With these courses, you’ll build the valuable skills you need to implement cloud initiatives — and open up new career opportunities. If you want to",
+            "drawingHeader": "Expand your creative skillset with Drawing",
+            "drawingParagraph": "Want to start drawing for fun or take your craft to the next level? Explore our online drawing classes and learn pencil drawing, figure drawing, cartoon drawing, character drawing for cartoons and anime, illustration, sketching, shading and more. Take an overview course on the fundamentals of drawing or zero in on an area you’d like to improve with a specialized course. We’ve got tons of options to get — and keep — you going."
         }
     ]
 }
