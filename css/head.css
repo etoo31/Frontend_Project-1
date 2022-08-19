@@ -10,7 +10,7 @@
 }
 .head-note {
   background-color: #ffffff;
-  height: 32%;
+  /* height: 32%; */
   width: 26%;
   padding: 20px;
   position: absolute;
@@ -40,7 +40,7 @@
   }
   .head-note {
     background-color: #ffffff;
-    height: 34%;
+    /* height: 34%; */
     padding: 20px;
     width: 37%;
     position: absolute;
@@ -69,7 +69,7 @@
   }
   .head-note {
     background-color: #ffffff;
-    height: 20%;
+    /* height: 20%; */
     width: 71%;
     padding: 20px;
     position: absolute;
@@ -98,7 +98,7 @@
   }
   .head-note {
     background-color: #ffffff;
-    height: 23%;
+    /* height: 23%; */
     width: 76%;
     padding: 20px;
     position: absolute;
@@ -128,12 +128,12 @@
   }
   .head-note {
     background-color: #ffffff;
-    height: 30%;
+    /* height: 30%; */
     width: 81%;
     padding: 20px;
     position: absolute;
     top: 337px;
-    left: 4%;
+    left: 10%;
   }
   .alarm {
     width: 63%;
@@ -158,12 +158,12 @@
   }
   .head-note {
     background-color: #ffffff;
-    height: 33%;
-    width: 85%;
-    padding: 20px;
+    /* height: 33%; */
+    width: 98%;
+    padding: 16px;
     position: absolute;
-    top: 342px;
-    left: -1px;
+    top: 365px;
+    left: 2px;
   }
   .alarm {
     /* position: absolute; */

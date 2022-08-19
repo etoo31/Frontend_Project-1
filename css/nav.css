@@ -15,6 +15,7 @@ body {
   display: flex;
   list-style-type: none;
   height: 100%;
+  width: 100%;
   justify-content: space-evenly;
   align-items: baseline;
   font-family: "Roboto", sans-serif;
