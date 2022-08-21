@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="./css/nav.css" />
     <link rel="stylesheet" href="./css/head.css" />
@@ -26,6 +26,11 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"
+    />
+    <!-- swiper css link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
     <title>Online Courses - Learn Anything, On Your Schedule | Udemy</title>
   </head>
@@ -115,7 +120,8 @@
       </div>
       <!--Subject Courses-->
     </div>
-    <div class="container subject-container">
+    <div class="subject-container overflow-hidden">
+      <!--courses header -->
       <div class="container m-4">
         <h1 class="subject-header">
           Expand your career opportunities with Python
@@ -130,21 +136,186 @@
         <button type="button" class="btn btn-light explore-more">
           Explore more
         </button>
-      </div>
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner courses-container">
-          <div class="carousel-item active">
-            <div class="cards-wrapper">
-              <div
-                class="card col-lg-1 col-md-4 col-sm-6 m-2"
-                style="width: 18rem"
-              >
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="card m-1">
+                <div class="card-img-top">
+                  <img
+                    src="./img/python2.png"
+                    class="img-fluid"
+                    alt="python-1"
+                  />
+                </div>
+                <div class="card-description">
+                  <h4 class="card-header">
+                    Learn Python: The Complete Python Programming Course
+                  </h4>
+                  <div class="course-author">Avinash Jain, The Codex</div>
+                  <div class="rating-star-container">
+                    <span class="rating">4.0</span>
+                    <span class="star-container">
+                      <i class="star fa-star fa-solid"></i>
+                      <i class="star fa-star fa-solid"></i>
+                      <i class="star fa-star fa-solid"></i
+                      ><i class="star fa-star fa-solid"></i>
+                    </span>
+                  </div>
+                  <div class="price-container">
+                    <span class="course-price">E£266</span>
+                    <span class="delete-price">E£620</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card m-1">
+                <div class="card-img-top">
+                  <img
+                    src="./img/python2.png"
+                    class="card-img"
+                    alt="python-1"
+                  />
+                </div>
+                <div class="card-description">
+                  <h4 class="card-header">
+                    Learn Python: The Complete Python Programming Course
+                  </h4>
+                  <div class="course-author">Avinash Jain, The Codex</div>
+                  <div class="rating-star-container">
+                    <span class="rating">4.0</span>
+                    <span class="star-container">
+                      <i class="star fa-star fa-solid"></i>
+                      <i class="star fa-star fa-solid"></i>
+                      <i class="star fa-star fa-solid"></i
+                      ><i class="star fa-star fa-solid"></i>
+                    </span>
+                  </div>
+                  <div class="price-container">
+                    <span class="course-price">E£266</span>
+                    <span class="delete-price">E£620</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card m-1">
+                <div class="card-img-top">
+                  <img
+                    src="./img/python2.png"
+                    class="card-img"
+                    alt="python-1"
+                  />
+                </div>
+                <div class="card-description">
+                  <h4 class="card-header">
+                    Learn Python: The Complete Python Programming Course
+                  </h4>
+                  <div class="course-author">Avinash Jain, The Codex</div>
+                  <div class="rating-star-container">
+                    <span class="rating">4.0</span>
+                    <span class="star-container">
+                      <i class="star fa-star fa-solid"></i>
+                      <i class="star fa-star fa-solid"></i>
+                      <i class="star fa-star fa-solid"></i
+                      ><i class="star fa-star fa-solid"></i>
+                    </span>
+                  </div>
+                  <div class="price-container">
+                    <span class="course-price">E£266</span>
+                    <span class="delete-price">E£620</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card m-1">
+                <div class="card-img-top">
+                  <img
+                    src="./img/python2.png"
+                    class="card-img"
+                    alt="python-1"
+                  />
+                </div>
+                <div class="card-description">
+                  <h4 class="card-header">
+                    Learn Python: The Complete Python Programming Course
+                  </h4>
+                  <div class="course-author">Avinash Jain, The Codex</div>
+                  <div class="rating-star-container">
+                    <span class="rating">4.0</span>
+                    <span class="star-container">
+                      <i class="star fa-star fa-solid"></i>
+                      <i class="star fa-star fa-solid"></i>
+                      <i class="star fa-star fa-solid"></i
+                      ><i class="star fa-star fa-solid"></i>
+                    </span>
+                  </div>
+                  <div class="price-container">
+                    <span class="course-price">E£266</span>
+                    <span class="delete-price">E£620</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card m-1">
+                <div class="card-img-top">
+                  <img
+                    src="./img/python2.png"
+                    class="card-img"
+                    alt="python-1"
+                  />
+                </div>
+                <div class="card-description">
+                  <h4 class="card-header">
+                    Learn Python: The Complete Python Programming Course
+                  </h4>
+                  <div class="course-author">Avinash Jain, The Codex</div>
+                  <div class="rating-star-container">
+                    <span class="rating">4.0</span>
+                    <span class="star-container">
+                      <i class="star fa-star fa-solid"></i>
+                      <i class="star fa-star fa-solid"></i>
+                      <i class="star fa-star fa-solid"></i
+                      ><i class="star fa-star fa-solid"></i>
+                    </span>
+                  </div>
+                  <div class="price-container">
+                    <span class="course-price">E£266</span>
+                    <span class="delete-price">E£620</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card m-1">
+                <div class="card-img-top">
+                  <img
+                    src="./img/python2.png"
+                    class="card-img"
+                    alt="python-1"
+                  />
+                </div>
+                <div class="card-description">
+                  <h4 class="card-header">
+                    Learn Python: The Complete Python Programming Course
+                  </h4>
+                  <div class="course-author">Avinash Jain, The Codex</div>
+                  <div class="rating-star-container">
+                    <span class="rating">4.0</span>
+                    <span class="star-container">
+                      <i class="star fa-star fa-solid"></i>
+                      <i class="star fa-star fa-solid"></i>
+                      <i class="star fa-star fa-solid"></i
+                      ><i class="star fa-star fa-solid"></i>
+                    </span>
+                  </div>
+                  <div class="price-container">
+                    <span class="course-price">E£266</span>
+                    <span class="delete-price">E£620</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card m-1">
                 <img
-                  src="./img/python1.png"
+                  src="./img/python2.png"
                   class="card-img-top"
                   alt="python-1"
                 />
@@ -170,159 +341,36 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-              <div
-                class="card col-lg-1 col-md-4 col-sm-6 m-2"
-                style="width: 18rem"
-              >
-                <img
-                  src="./img/python1.png"
-                  class="card-img-top"
-                  alt="python-1"
-                />
-                <div class="card-description">
-                  <h4 class="card-header">
-                    Learn Python: The Complete Python Programming Course
-                  </h4>
-                  <div class="course-author">Avinash Jain, The Codex</div>
-                  <div class="rating-star-container">
-                    <span class="rating">4.0</span>
-                    <span class="star-container">
-                      <i class="star fa-star fa-solid"></i>
-                      <i class="star fa-star fa-solid"></i>
-                      <i class="star fa-star fa-solid"></i
-                      ><i class="star fa-star fa-solid"></i>
-                    </span>
-                  </div>
-                  <div class="price-container">
-                    <span class="course-price">E£266</span>
-                    <span class="delete-price">E£620</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <!-- If we need pagination -->
+          <!-- <div class="swiper-pagination"></div> -->
+
+          <!-- If we need navigation buttons -->
+          <div class="prev">
+            <img
+              src="./img/left-icon.png"
+              alt="left icon"
+              class="prev-next-img"
+            />
           </div>
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-              <div
-                class="card col-lg-1 col-md-4 col-sm-6 m-2"
-                style="width: 18rem"
-              >
-                <img
-                  src="./img/python1.png"
-                  class="card-img-top"
-                  alt="python-1"
-                />
-                <div class="card-description">
-                  <h4 class="card-header">
-                    Learn Python: The Complete Python Programming Course
-                  </h4>
-                  <div class="course-author">Avinash Jain, The Codex</div>
-                  <div class="rating-star-container">
-                    <span class="rating">4.0</span>
-                    <span class="star-container">
-                      <i class="star fa-star fa-solid"></i>
-                      <i class="star fa-star fa-solid"></i>
-                      <i class="star fa-star fa-solid"></i
-                      ><i class="star fa-star fa-solid"></i>
-                    </span>
-                  </div>
-                  <div class="price-container">
-                    <span class="course-price">E£266</span>
-                    <span class="delete-price">E£620</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="next">
+            <img
+              src="./img/right-icon.png"
+              alt="left icon"
+              class="prev-next-img"
+            />
           </div>
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-              <div
-                class="card col-lg-1 col-md-4 col-sm-6 m-2"
-                style="width: 18rem"
-              >
-                <img
-                  src="./img/python1.png"
-                  class="card-img-top"
-                  alt="python-1"
-                />
-                <div class="card-description">
-                  <h4 class="card-header">
-                    Learn Python: The Complete Python Programming Course
-                  </h4>
-                  <div class="course-author">Avinash Jain, The Codex</div>
-                  <div class="rating-star-container">
-                    <span class="rating">4.0</span>
-                    <span class="star-container">
-                      <i class="star fa-star fa-solid"></i>
-                      <i class="star fa-star fa-solid"></i>
-                      <i class="star fa-star fa-solid"></i
-                      ><i class="star fa-star fa-solid"></i>
-                    </span>
-                  </div>
-                  <div class="price-container">
-                    <span class="course-price">E£266</span>
-                    <span class="delete-price">E£620</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="cards-wrapper">
-              <div
-                class="card col-lg-1 col-md-4 col-sm-6 m-2"
-                style="width: 18rem"
-              >
-                <img
-                  src="./img/python1.png"
-                  class="card-img-top"
-                  alt="python-1"
-                />
-                <div class="card-description">
-                  <h4 class="card-header">
-                    Learn Python: The Complete Python Programming Course
-                  </h4>
-                  <div class="course-author">Avinash Jain, The Codex</div>
-                  <div class="rating-star-container">
-                    <span class="rating">4.0</span>
-                    <span class="star-container">
-                      <i class="star fa-star fa-solid"></i>
-                      <i class="star fa-star fa-solid"></i>
-                      <i class="star fa-star fa-solid"></i
-                      ><i class="star fa-star fa-solid"></i>
-                    </span>
-                  </div>
-                  <div class="price-container">
-                    <span class="course-price">E£266</span>
-                    <span class="delete-price">E£620</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <!-- <div class="swiper-button-prev swp-btn"></div>
+          <div class="swiper-button-next swp-btn"></div>
+ -->
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-      <!--end of the carousel-->
+      <!--courses slider-->
+      <!-- Slider main container -->
+
+      <!--End slider-->
     </div>
     <!--Footer Section-->
     <footer>
@@ -332,7 +380,9 @@
     </footer>
 
     <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/swipe.js"></script>
     <!--<script src="./js/courses.js"></script>-->
   </body>
 </html>
