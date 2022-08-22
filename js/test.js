@@ -1,18 +1,4 @@
-//A global array that carrying course data
-let courseData;
-//getting some of the dom elements
-coursesContainerDiv = document.querySelector(".courses-container");
 
-//featching data
-let fetchCourses = async ()=>{
-    let response = await fetch("http://localhost:3000/courses");
-    let json = await response.json();
-    courseData = await json;
-    await courseData.forEach(element =>addCourseElement(element));
-   // await ();
-
-}
-fetchCourses();
 function addCourseElement(element)
 {
     //create course div
@@ -70,7 +56,7 @@ function addCourseElement(element)
     //create stars icons
     /*getting the rating number and knowing how many full stars are there
      and if there a half star or not and if there an empty star or not*/
-    let numberOfStars = +element['rating'];
+   let numberOfStars = +element['rating'];
     let fullStars = Math.floor(numberOfStars);
     let emptyStars = 5-fullStars;
     let halfStar = false;
@@ -197,3 +183,4 @@ var navForm = document.getElementById("nav-form");
 console.log(navForm);
 function handleForm(event) { event.preventDefault(); } 
 navForm.addEventListener('submit', handleForm);
+
