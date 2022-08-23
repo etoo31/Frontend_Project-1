@@ -44,7 +44,7 @@ export default function showSubjectData()
     //make course header container 
     let subjectHeaderContainer = document.createElement('div');
     subjectHeaderContainer.classList.add('container');
-    subjectHeaderContainer.classList.add('m-4');
+    subjectHeaderContainer.classList.add('m-lg-4');
     //get subject Header
     let subjectHeader = getSubjectHeader();
     //add subject Header to subject header container 
@@ -430,4 +430,60 @@ var makeSwiper = new Swiper('.swiper', {
   });
 }
  
-  
+
+
+
+
+//Select search button document
+let searchButton = document.querySelector('.nav-form-button');
+//add an action on click
+searchButton.addEventListener('click' , searchCourse);
+
+function searchCourse()
+{
+    console.log("clicked");
+    //select search input
+    let searchInput = document.querySelector('#search-input');
+    let input = searchInput.value.toLowerCase();
+    //clear searchInput text
+    searchInput.value = "";
+    //if searchinput is empty do nothing
+    if (input.trim() == '' || courseData == undefined)return;
+    
+    //make an array for the data that will match the input
+    let displayedElement = new Array();
+
+    //go through all courses
+    for (let i = 0 ; i < courseData.length;i++)
+    {
+        if (courseData[i]['title'].toLowerCase().includes(input)) {
+            displayedElement.push(courseData[i]);
+        }
+    }
+    if (displayedElement.length == 0)
+    {//if the input dosen't match with any course display all courses for the active btn
+       showSubjectData();
+       console.log(empty);
+    }
+    else 
+    {//if atleast one course match the input data display it
+    
+        let swiperWrapper = document.querySelector(".swiper-wrapper");
+        swiperWrapper.innerHTML = "";
+        displayedElement.forEach(element =>
+            {
+                let swiperSlide = getSwiperSlide();
+                let card = createCard(element);
+                swiperSlide.appendChild(card);
+                swiperWrapper.appendChild(swiperSlide);
+                initSwiper();
+
+            });
+    }
+}
+
+//Prevent the page from reload on submit
+var navForm = document.getElementById("nav-form");
+console.log(navForm);
+function handleForm(event) { event.preventDefault(); } 
+navForm.addEventListener('submit', handleForm);
