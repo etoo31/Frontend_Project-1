@@ -72,12 +72,9 @@ export default function showSubjectData()
     {
         let card = createCard(displayedCourses[i-1]);
         swiperSlide.appendChild(card);
-        if (i%5 == 0)
-        {
-            swiperWrapper.appendChild(swiperSlide);
-            console.log(swiperSlide);
-            swiperSlide = getSwiperSlide();
-        }
+        swiperWrapper.appendChild(swiperSlide);
+        console.log(swiperSlide);
+        swiperSlide = getSwiperSlide();
     }
 
     let swiper = getSwiperContainer();
@@ -182,7 +179,7 @@ function createCard(element)
 {
     //create card div
     let card = document.createElement('div');
-    card.classList ="card m-1 w-25";
+    card.classList ="card m-1 w-100 h-100";
 
     // get card div img and append it
     let cardImgContainer = getCardImg(element);
@@ -228,7 +225,7 @@ function getCardImg(element)
     
     //create card img
     let cardImg = document.createElement('img');
-    cardImg.classList ="card-img";
+    cardImg.classList ="card-img img-fluid";
 
     //set src and alt attributes 
     cardImg.setAttribute('src',element['image-src']);
@@ -403,6 +400,33 @@ var makeSwiper = new Swiper('.swiper', {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
+
+    // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    },
+    1000: {
+        slidesPerView: 4,
+      spaceBetween: 40
+    },
+    1400: {
+        slidesPerView: 5,
+      spaceBetween: 40
+    }
+  }
   });
 }
  
