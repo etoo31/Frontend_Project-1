@@ -51,6 +51,56 @@
             "offerPrice": "269.99"
         },
         {
+            "image-src": "./img/python10.png",
+            "alt": "Phyton-image",
+            "title": "Python-byond the basics object-oriented programming",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/python9.png",
+            "alt": "Phyton-image",
+            "title": "Python-byond the basics object-oriented programming",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/python8.png",
+            "alt": "Phyton-image",
+            "title": "Python-byond the basics object-oriented programming",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/python7.png",
+            "alt": "Phyton-image",
+            "title": "Python-byond the basics object-oriented programming",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
+            "image-src": "./img/python6.png",
+            "alt": "Phyton-image",
+            "title": "Python-byond the basics object-oriented programming",
+            "author": "Infinite Skills",
+            "rating": "4.4",
+            "offer": "0",
+            "price": "679.99",
+            "offerPrice": "269.99"
+        },
+        {
             "image-src": "./img/java1.png",
             "alt": "java-image",
             "title": "Learn javaScript: Java script for begginners",

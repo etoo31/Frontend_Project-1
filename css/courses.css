@@ -119,13 +119,13 @@
   display: flex;
   align-items: center;
 }
-.card {
+/*.card {
   width: 15rem;
   border-radius: 10px;
   margin: auto;
   border: none;
   box-shadow: 0px 0px 12px rgb(0 0 0 / 60%);
-}
+}*/
 .card:hover {
   transition: 1s;
   background-color: rgba(240, 232, 232, 0.927);

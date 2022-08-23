@@ -1,7 +1,10 @@
+
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
+  observer: true,
+  observeParents: true,
 
   // If we need pagination
   pagination: {
@@ -19,3 +22,4 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-scrollbar',
   },
 });
+console.log("hey");

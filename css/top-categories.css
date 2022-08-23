@@ -1,0 +1,11 @@
+.top-categroies {
+}
+.box-img {
+  height: 80%;
+  width: 100%;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 10%;
+}
